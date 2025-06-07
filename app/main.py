@@ -7,7 +7,7 @@ warnings.filterwarnings("ignore", category=UserWarning)
 
 import streamlit as st
 from PIL import Image
-from app.inference import predict
+from inference import predict
 
 st.title("Plant Disease Detector")
 
